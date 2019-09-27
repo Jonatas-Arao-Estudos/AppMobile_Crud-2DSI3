@@ -11,6 +11,14 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
     color: #311b92;
 }
 
-.cadastro{
+.dropdown-content li>a, .dropdown-content li>span {
+    color: #311b92;
+}
+
+.select-wrapper input.select-dropdown:focus {
+    border-bottom: 1px solid #311b92;
+}
+
+.formulario{
   margin-top: 2rem;
 }
